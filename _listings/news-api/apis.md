@@ -10,9 +10,9 @@ tags:
 - Publishing
 - News
 - Media
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/news-api/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: News API
@@ -24,7 +24,7 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/news-api/sources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/top-headlines-get.md
 x-common:
 - type: x-email
   url: support@newsapi.org
