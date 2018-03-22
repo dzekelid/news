@@ -30,7 +30,7 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/sections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/editions-get.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
