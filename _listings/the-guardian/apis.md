@@ -15,9 +15,9 @@ tags:
 - Media
 - Data
 - API United Kingdom
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/the-guardian/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: The Guardian
@@ -30,7 +30,7 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/the-guardian/editions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/search-get.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
