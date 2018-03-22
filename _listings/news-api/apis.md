@@ -24,7 +24,7 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/everything-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/sources-get.md
 x-common:
 - type: x-email
   url: support@newsapi.org
