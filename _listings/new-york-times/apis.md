@@ -23,7 +23,7 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/lists-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/query-json-get.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
