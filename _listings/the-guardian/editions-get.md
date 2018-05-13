@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: The Guardian
-  description: The Guardian Content API is a public service for accessing all the
-    content the Guardian creates and the collections we have of that content (tags
-    and sections). There are over one and a half million items available published
-    as far back as 1999. This overview will give you some idea of what data is available,
-    how to find what you need, and what you will see when you make a request to us.
+  title: The Guardian Editions
+  description: Retrieves the editions of the Guardian news platform.
   version: v1
 host: content.guardianapis.com
 schemes:
