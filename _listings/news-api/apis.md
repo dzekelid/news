@@ -25,7 +25,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/sources-get.md
+- name: News API Top Headlines
+  description: This endpoint provides live top and breaking headlines for a country,
+    specific category in a country, single source, or multiple sources. You can also
+    search with keywords. Articles are sorted by the earliest date published first.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26590-newsapi-org.jpg
+  humanURL: https://newsapi.org
+  baseURL: https://newsapi.org/v2/
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/top-headlines-get.md
 x-common:
+- type: x-email
+  url: support@newsapi.org
+- type: x-twitter
+  url: https://twitter.com/NewsAPIorg
+- type: x-website
+  url: https://newsapi.org
 - type: x-email
   url: support@newsapi.org
 - type: x-twitter
