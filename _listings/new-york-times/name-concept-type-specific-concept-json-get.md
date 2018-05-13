@@ -1,14 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: New York Times
-  description: You already know that NYTimes.com is an unparalleled source of news
-    and information. But now it's a premier source of data, too &mdash; why just read
-    the news when you can hack it?
+  title: New York Times The Semantic API
+  description: The Semantic API complements the Articles API. With the Semantic API,
+    you get access to the long list of people, places, organizations and other locations,
+    entities and descriptors that make up the controlled vocabulary used as metadata
+    by The New York Times (sometimes referred to as Times Tags and used for Times
+    Topics pages.
   termsOfService: https://developer.nytimes.com/tou
   version: 2.0.0
 host: api.nytimes.com
-basePath: /svc/search/v2
+basePath: /svc
 schemes:
 - http
 produces:
