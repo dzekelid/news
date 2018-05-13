@@ -24,18 +24,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get.md
-- name: New York Times Top Stories
-  description: The Top Stories API returns a list of articles and associated images
-    currently on the specified section.  Support JSON and JSONP.
+- name: New York Times Article Search
+  description: Article SearchWith the Article Search API, you can search New York
+    Times articles from Sept. 18, 1851 to today, retrieving headlines, abstracts,
+    lead paragraphs, links to associated multimedia and other article.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/new-york-times-logo.jpg
   humanURL: http://nytimes.com/
   baseURL: https://api.nytimes.com//svc
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/topstories-v2-section-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/search-v2-articlesearch-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/topstories-v2-section-format-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/search-v2-articlesearch-json-get-postman.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
