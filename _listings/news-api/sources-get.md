@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: News API
-  description: Get breaking news headlines, and search for articles from over 5,000
-    news sources and blogs with our news API.
+  title: News API Sources
+  description: This endpoint returns the subset of news publishers that top headlines
+    (/v2/top-headlines) are available from. It's mainly a convenience endpoint that
+    you can use to keep track of the publishers available on the API, and you can
+    pipe it straight through to your users.
   termsOfService: https://newsapi.org/terms
   version: 1.0.0
 host: newsapi.org
@@ -50,16 +52,16 @@ paths:
 definitions: []
 x-collection-name: News API
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.19"
+  polling_size_download_average: "39818.02"
+  streaming_total_time_average: "0.11"
+  streaming_size_download_average: "19982.96"
+  change_yes: "21"
+  change_no: "2143"
+  time_percentage: "42"
+  size_percentage: "50"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "7"
+  minute_run: "0"
 ---
