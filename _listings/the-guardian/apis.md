@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/editions-get.md
-- name: The Guardian Sections
-  description: Retrieves the sections used across the Guardian news platform.
+- name: The Guardian Editions
+  description: Retrieves the editions of the Guardian news platform.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
   humanURL: http://www.guardian.co.uk/open-platform
   baseURL: https://content.guardianapis.com//
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/sections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/editions-get.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
