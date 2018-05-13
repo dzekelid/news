@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: News API
-  description: Get breaking news headlines, and search for articles from over 5,000
-    news sources and blogs with our news API.
+  title: News API Everything
+  description: Search through millions of articles from over 5,000 large and small
+    news sources and blogs. This includes breaking news as well as lesser articles.
   termsOfService: https://newsapi.org/terms
   version: 1.0.0
 host: newsapi.org
@@ -61,16 +61,16 @@ paths:
 definitions: []
 x-collection-name: News API
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.24"
+  polling_size_download_average: "10392.72"
+  streaming_total_time_average: "0.14"
+  streaming_size_download_average: "5206.04"
+  change_yes: "29"
+  change_no: "2135"
+  time_percentage: "41"
+  size_percentage: "50"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "7"
+  minute_run: "0"
 ---
