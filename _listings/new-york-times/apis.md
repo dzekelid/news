@@ -24,18 +24,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get.md
-- name: New York Times Best Seller List
-  description: The Books API has services for getting information about The New York
-    Times Best Sellers Lists and Book Reviews.
+- name: New York Times Geographic API
+  description: The Geographic API extends the Semantic API, using a linked data approach
+    to enhance location concepts used in The New York Times' controlled vocabulary
+    and data resources which combine them with the GeoNames database, an authoritative
+    and free to use database of global geographical places, names and features.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/new-york-times-logo.jpg
   humanURL: http://nytimes.com/
   baseURL: https://api.nytimes.com//svc
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/books-v2-lists-format-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/query-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/books-v2-lists-format-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/query-json-get-postman.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
