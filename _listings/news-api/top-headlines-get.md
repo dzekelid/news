@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: News API
-  description: Get breaking news headlines, and search for articles from over 5,000
-    news sources and blogs with our news API.
+  title: News API Top Headlines
+  description: This endpoint provides live top and breaking headlines for a country,
+    specific category in a country, single source, or multiple sources. You can also
+    search with keywords. Articles are sorted by the earliest date published first.
   termsOfService: https://newsapi.org/terms
   version: 1.0.0
 host: newsapi.org
@@ -61,16 +62,16 @@ paths:
 definitions: []
 x-collection-name: News API
 x-streamrank:
-  polling_total_time_average: "0.2"
-  polling_size_download_average: "12416.53"
+  polling_total_time_average: "0.21"
+  polling_size_download_average: "12418.37"
   streaming_total_time_average: "0.12"
-  streaming_size_download_average: "6221.95"
-  change_yes: "800"
-  change_no: "6298"
-  time_percentage: "41"
+  streaming_size_download_average: "6222.76"
+  change_yes: "1830"
+  change_no: "7430"
+  time_percentage: "42"
   size_percentage: "50"
-  change_percentage: "11"
-  last_run: "2018-02-21"
-  days_run: "5"
+  change_percentage: "20"
+  last_run: "2018-05-12"
+  days_run: "26"
   minute_run: "0"
 ---
