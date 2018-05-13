@@ -24,7 +24,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get.md
-- name: New York Times Most Shared by Section & Time Period
+- name: New York Times Most Emailed by Section & Time Period
   description: With the Most Popular API, you can get links and metadata for the blog
     posts and articles that are most frequently e-mailed, shared and viewed by NYTimes.co
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/new-york-times-logo.jpg
@@ -33,9 +33,9 @@ apis:
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostshared-section-time-period-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostemailed-section-time-period-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostshared-section-time-period-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostemailed-section-time-period-json-get-postman.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
