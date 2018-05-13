@@ -1,14 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: New York Times
-  description: You already know that NYTimes.com is an unparalleled source of news
-    and information. But now it's a premier source of data, too &mdash; why just read
-    the news when you can hack it?
+  title: New York Times Geographic API
+  description: The Geographic API extends the Semantic API, using a linked data approach
+    to enhance location concepts used in The New York Times' controlled vocabulary
+    and data resources which combine them with the GeoNames database, an authoritative
+    and free to use database of global geographical places, names and features.
   termsOfService: https://developer.nytimes.com/tou
   version: 2.0.0
 host: api.nytimes.com
-basePath: /svc/search/v2
+basePath: /svc
 schemes:
 - http
 produces:
