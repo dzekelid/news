@@ -24,18 +24,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get.md
-- name: New York Times Most Viewed by Section & Time Period
-  description: With the Most Popular API, you can get links and metadata for the blog
-    posts and articles that are most frequently e-mailed, shared and viewed by NYTimes.co
+- name: New York Times The Semantic API
+  description: The Semantic API complements the Articles API. With the Semantic API,
+    you get access to the long list of people, places, organizations and other locations,
+    entities and descriptors that make up the controlled vocabulary used as metadata
+    by The New York Times (sometimes referred to as Times Tags and used for Times
+    Topics pages.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/new-york-times-logo.jpg
   humanURL: http://nytimes.com/
   baseURL: https://api.nytimes.com//svc
   tags: News
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostviewed-section-time-period-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/mostpopular-v2-mostviewed-section-time-period-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/name-concept-type-specific-concept-json-get-postman.md
 x-common:
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
