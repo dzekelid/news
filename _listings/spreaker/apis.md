@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "13176"
 tags: News
-created: "2018-05-28"
-modified: "2018-05-28"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:

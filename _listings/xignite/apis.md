@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: News
-created: "2018-05-28"
-modified: "2018-05-28"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
