@@ -1,21 +1,23 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
+x-alexaRank: "303229"
 tags: News
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Intrinio API Sector News Sentiments
   x-api-slug: intrinio-api
   description: Returns daily summaries of news sentiments by sector and date.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////news_sector_sentiments
   tags: Market Data,News,Sector, Sentiments
@@ -24,10 +26,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/intrinio/news-sector-sentiments-get-openapi.md
 - name: Intrinio API
   x-api-slug: intrinio-api
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds. Affordable, easy to access financial data for developers and
-    investors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: News
@@ -57,6 +60,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners

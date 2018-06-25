@@ -4,7 +4,7 @@ description: This is a repository of news APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/news.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://news.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -18,10 +18,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/iex/apis.yaml
 - name: Intrinio
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/intrinio/apis.yaml
-- name: New York Times
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/new-york-times/apis.yaml
-- name: News API
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api/apis.yaml
+- name: The New York Times
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-new-york-times/apis.yaml
+- name: "News API \U0001F5DE\uFE0F"
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/news-api-/apis.yaml
 - name: Lykke
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/lykke/apis.yaml
 - name: NPR

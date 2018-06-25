@@ -5,10 +5,10 @@ description: Discover and listen to your favorite podcasts for free or sign up t
   create your own!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
 x-kinRank: "8"
-x-alexaRank: "13176"
+x-alexaRank: "12286"
 tags: News
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -62,6 +62,8 @@ x-common:
   url: legal@Spreaker.com
 - type: x-github
   url: https://github.com/spreaker
+- type: x-linkedin
+  url: https://www.linkedin.com/company/spreaker/
 - type: x-pricing
   url: http://www.spreaker.com/plans
 - type: x-twitter
