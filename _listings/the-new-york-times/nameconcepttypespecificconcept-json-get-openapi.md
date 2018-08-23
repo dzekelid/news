@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times The Semantic API
+  title: The New York Times The Semantic API
   description: The Semantic API complements the Articles API. With the Semantic API,
     you get access to the long list of people, places, organizations and other locations,
     entities and descriptors that make up the controlled vocabulary used as metadata

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Article Search
+  title: The New York Times Article Search
   description: Article SearchWith the Article Search API, you can search New York
     Times articles from Sept. 18, 1851 to today, retrieving headlines, abstracts,
     lead paragraphs, links to associated multimedia and other article.

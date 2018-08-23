@@ -7,67 +7,112 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-myne
 x-kinRank: "7"
 x-alexaRank: "26576"
 tags: News
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/apis.md
 specificationVersion: "0.14"
 apis:
-- name: My News Desk Pressroom List Lists news
+- name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
-  description: Lists news
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
   humanURL: http://www.mynewsdesk.com
-  baseURL: https://www.mynewsdesk.com//services/pressroom//list/
-  tags: News
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-openapi.md
-- name: My News Desk Pressroom List Pressroom Info
+- name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
-  description: Pressroom Info
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
   humanURL: http://www.mynewsdesk.com
-  baseURL: https://www.mynewsdesk.com//services/pressroom//pressroom_info/
-  tags: News, Pressroom,Info
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-openapi.md
-- name: My News Desk Pressroom List News Search
+- name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
-  description: News Search
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
   humanURL: http://www.mynewsdesk.com
-  baseURL: https://www.mynewsdesk.com//services/pressroom//search/
-  tags: News,Search
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-openapi.md
-- name: My News Desk Pressroom List News Subscription
+- name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
-  description: News Subscription
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
   humanURL: http://www.mynewsdesk.com
-  baseURL: https://www.mynewsdesk.com//services/pressroom//subscription/
-  tags: News,Subscription
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/subscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/subscription-get-openapi.md
-- name: My News Desk Pressroom List View News
+- name: My News Desk Pressroom List
   x-api-slug: my-news-desk-pressroom-list
-  description: View News
+  description: mynewsdesk-webservice-for-newsroom-is-a-way-for-you-as-a-registered-customer-to-fetch-information-from-your-newsroom-at-mynewsdesk-to-any-system--you-can-get-all-your-information-as-xml-and-create-email-subscriptions-to-your-material-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg
   humanURL: http://www.mynewsdesk.com
-  baseURL: https://www.mynewsdesk.com//services/pressroom//view/
-  tags: View,News
+  baseURL: https://www.mynewsdesk.com//services/pressroom/
+  tags: News, News API, News, Public relations, Technology, SaaS, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/list-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/pressroom-info-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/subscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/subscription-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/view-get-postman.md
   - type: x-openapi-spec
@@ -85,6 +130,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/mynewsdesk/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://motaword.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mynewsdesk.stack.network
 - type: x-base
   url: http://www.mynewsdesk.com/services/
 - type: x-blog

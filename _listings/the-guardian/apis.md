@@ -11,39 +11,48 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: News
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: The Guardian Search
+- name: The Guardian
   x-api-slug: the-guardian
-  description: Searches news content across the Guardian news platform.
+  description: the-guardian-content-api-is-a-public-service-for-accessing-all-the-content-the-guardian-creates-and-the-collections-we-have-of-that-content-tags-and-sections--there-are-over-one-and-a-half-million-items-available-published-as-far-back-as-1999--this-overview-will-give-you-some-idea-of-what-data-is-available-how-to-find-what-you-need-and-what-you-will-see-when-you-make-a-request-to-us-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
   humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com///search
-  tags: News
+  baseURL: https://content.guardianapis.com/
+  tags: Media, Data, API United Kingdom, News, General Data, Relative Data, Service
+    API, Pedestal, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/search-get-openapi.md
-- name: The Guardian Sections
+- name: The Guardian
   x-api-slug: the-guardian
-  description: Retrieves the sections used across the Guardian news platform.
+  description: the-guardian-content-api-is-a-public-service-for-accessing-all-the-content-the-guardian-creates-and-the-collections-we-have-of-that-content-tags-and-sections--there-are-over-one-and-a-half-million-items-available-published-as-far-back-as-1999--this-overview-will-give-you-some-idea-of-what-data-is-available-how-to-find-what-you-need-and-what-you-will-see-when-you-make-a-request-to-us-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
   humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com///sections
-  tags: News
+  baseURL: https://content.guardianapis.com/
+  tags: Media, Data, API United Kingdom, News, General Data, Relative Data, Service
+    API, Pedestal, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/search-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/sections-get-openapi.md
-- name: The Guardian Editions
+- name: The Guardian
   x-api-slug: the-guardian
-  description: Retrieves the editions of the Guardian news platform.
+  description: the-guardian-content-api-is-a-public-service-for-accessing-all-the-content-the-guardian-creates-and-the-collections-we-have-of-that-content-tags-and-sections--there-are-over-one-and-a-half-million-items-available-published-as-far-back-as-1999--this-overview-will-give-you-some-idea-of-what-data-is-available-how-to-find-what-you-need-and-what-you-will-see-when-you-make-a-request-to-us-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
   humanURL: http://www.guardian.co.uk/open-platform
-  baseURL: https://content.guardianapis.com///editions
-  tags: News
+  baseURL: https://content.guardianapis.com/
+  tags: Media, Data, API United Kingdom, News, General Data, Relative Data, Service
+    API, Pedestal, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/search-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/sections-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/editions-get-openapi.md
 - name: The Guardian
@@ -60,9 +69,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/openapi.md
+- name: The Guardian Search (stream)
+  x-api-slug: the-guardian-search-stream
+  description: The Guardian is a British national daily newspaper which has grown
+    into a national paper associated with a complex organisational structure and an
+    international multimedia and web presence. The Guardian provides API access to
+    articles accessible by tag and section, and a suite of open source data and tools.
+    The Guardian makes content accessible to increase traffic, brand awareness, and
+    as a marketing vehicle, including partnership opportunities via platform program.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/the-guardian-logo.png
+  humanURL: http://www.guardian.co.uk/open-platform
+  baseURL: https:///
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/the-guardian/openapi.md
 x-common:
 - type: x-access-tiers
   url: http://open-platform.theguardian.com/access/
+- type: x-api-gallery
+  url: http://telapi.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://the.guardian.stack.network
 - type: x-base
   url: http://content.guardianapis.com/
 - type: x-blog

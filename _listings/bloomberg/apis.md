@@ -1,22 +1,28 @@
 ---
 name: Bloomberg
+x-slug: bloomberg
 description: Bloomberg delivers business and markets news, data, analysis, and video
   to the world, featuring stories from Businessweek and Bloomberg News
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18926-bloomberg.jpg
 x-kinRank: "8"
 x-alexaRank: "440"
-tags:
-- Technology
-- SaaS
-- Publishing
-- News
-- Mobile
-- Financial Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/bloomberg/apis.yaml
+tags: News
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/bloomberg/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Bloomberg
+  x-api-slug: bloomberg
+  description: Bloomberg delivers business and markets news, data, analysis, and video
+    to the world, featuring stories from Businessweek and Bloomberg News
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18926-bloomberg.jpg
+  humanURL: http://www.reuters.com/
+  baseURL: https:///
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/bloomberg/openapi.md
 x-common:
 - type: x-blog-rss
   url: http://feeds.reuters.com/reuters/technologyNews

@@ -7,304 +7,1447 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscr
 x-kinRank: "7"
 x-alexaRank: "91598"
 tags: News
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/apis.md
 specificationVersion: "0.14"
 apis:
-- name: News Cred Topic Articles
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of articles related to the specified topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com////topic/{guid]/articles/
-  tags: News,Topic,Articles
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
-- name: News Cred Articles
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of articles according to the specified set of parameters.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///articles/
-  tags: News,Articles
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
-- name: News Cred Author Articles
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns articles written by the specified author and matching the given
-    query string.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///author/{guid}/articles/
-  tags: News,Author,Articles
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
-- name: News Cred Author Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Gets a list of topics related to an author.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///author/{guid}/topics/
-  tags: News,Author,Topics
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
-- name: News Cred Categories
+- name: News Cred
   x-api-slug: news-cred
-  description: Search for categories
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///categories/
-  tags: News,Categories
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
-- name: News Cred Category Sources
+- name: News Cred
   x-api-slug: news-cred
-  description: Gets a list of sources that write most frequently about the category
-    specified by the dashed name
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///category/dashed-name/sources/
-  tags: News,Category,Dashed-name,Sources
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
-- name: News Cred Category Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Gets a list of topics within the category specified by the dashed name.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///category/dashed-name/topics/
-  tags: News,Category,Dashed-name,Topics
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
-- name: News Cred Category Stories
+- name: News Cred
   x-api-slug: news-cred
-  description: Find the top news stories related to a given category. A story is a
-    collection of similar articles.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///category/{category-name]/stories/
-  tags: News,Category,Category-name],Stories
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
-- name: News Cred Category Images
+- name: News Cred
   x-api-slug: news-cred
-  description: Gets images related to the specified category.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///category/{dashed-name}/images/
-  tags: News,Category,Dashed-name,Images
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
-- name: News Cred Source Articles
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of articles provided by the specified source
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///source/{GUID}/articles/
-  tags: News,Source,GUID,Articles
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
-- name: News Cred Source Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of topics related to the source specified by the given
-    GUID.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///source/{GUID}/topics/
-  tags: News,Source,GUID,Topics
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
-- name: News Cred Sources
+- name: News Cred
   x-api-slug: news-cred
-  description: Search sources by name. Returns a list of sources objects
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///sources/
-  tags: News,Sources
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
-- name: News Cred Stories
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns the top stories related to the specified query. A story is
-    a group of similar articles. By default, stories are sorted by a combination of
-    recency and importance. If the from_date and/or to_date parameters are specified,
-    stories are sorted by importance only.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///stories/
-  tags: News,Stories
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
-- name: News Cred Topic Images
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns images related to the specified topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guide{/images/
-  tags: News,Topice,Images
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
-- name: News Cred Topic
+- name: News Cred
   x-api-slug: news-cred
-  description: Return the topic specified by the given GUID.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/
-  tags: News,Topic
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
-- name: News Cred Topic Sources
+- name: News Cred
   x-api-slug: news-cred
-  description: The guid for the topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/sources/
-  tags: News,Topic,Sources
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
-- name: News Cred Related Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of topics related to the topic specified.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/topics/
-  tags: News,Topic,Topics
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
-- name: News Cred Related Tweets
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of real-time tweets related to the specified topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/tweets/
-  tags: News,Topic,Tweets
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
-- name: News Cred Topic Videos
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of videos related to the specified topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/videos/
-  tags: News,Topic,Videos
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
-- name: News Cred Topic Stories
+- name: News Cred
   x-api-slug: news-cred
-  description: Find the top stories that are happening for a given topic. A story
-    is a collection of similar articles.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{topic_guid}/stories/
-  tags: News,Topic,Topic,Stories
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-openapi.md
-- name: News Cred Search Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Search for a specific topics.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topics/
-  tags: News,Topics
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-openapi.md
-- name: News Cred Extract Related Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of topics extracted from the input query.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topics/extract/
-  tags: News,Topics,Extract
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-openapi.md
-- name: News Cred Related Topics
+- name: News Cred
   x-api-slug: news-cred
-  description: Given some search criteria, returns a list of topics related to those
-    criteria.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topics/related/
-  tags: News,Topics,Related
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsrelated-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsrelated-get-openapi.md
-- name: News Cred Videos
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns videos matching the given query string
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///videos/
-  tags: News,Videos
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/articles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/authorguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednamesources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednametopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/categorydashednameimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidarticles-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sourceguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/sources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/stories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguideimages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidsources-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtopics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidtweets-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicguidvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topictopic-guidstories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topics-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsextract-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsrelated-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/topicsrelated-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/videos-get-postman.md
   - type: x-openapi-spec
@@ -321,6 +1464,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/newscred/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://news.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://newscred.stack.network
 - type: x-base
   url: http://api.newscred.com
 - type: x-blog

@@ -1,35 +1,37 @@
 ---
 name: TIME
+x-slug: time
 description: Breaking news and analysis from TIME.com. Politics, world news, photos,
   video, tech reviews, health, science and entertainment news.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1031-time.jpg
 x-kinRank: "8"
 x-alexaRank: "751"
-tags:
-- Stack Network
-- RDF
-- Publishing
-- News API
-- News
-- Mobile
-- Metadata
-- Financial Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/news/master/_listings/time/apis.yaml
+tags: News
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/time/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: TIME
+  x-api-slug: time
+  description: Breaking news and analysis from TIME.com. Politics, world news, photos,
+    video, tech reviews, health, science and entertainment news.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1031-time.jpg
+  humanURL: http://time.com
+  baseURL: https:///
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/time/openapi.md
 x-common:
 - type: x-blog
   url: http://blog.ap.org
-- type: x-net-library
+- type: x--net-library
   url: https://github.com/TheAssociatedPress/APISamples/tree/master/APContentAPI/dotnet
-- type: x-angularjs-library
+- type: x-angular-js-library
   url: https://github.com/TheAssociatedPress/APISamples/tree/master/APContentAPI/angularjs
 - type: x-base
   url: http://cv.ap.org/d/
-- type: x-blog
-  url: http://blog.ap.org
 - type: x-branding
   url: http://www.ap.org/company/Brand
 - type: x-contact-form
@@ -80,7 +82,7 @@ x-common:
   url: https://github.com/TheAssociatedPress
 - type: x-java-library
   url: https://github.com/TheAssociatedPress/APISamples/tree/master/APContentAPI/java/src/ap/apisample
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://github.com/TheAssociatedPress/APISamples/tree/master/APContentAPI/node
 - type: x-php-library
   url: https://github.com/TheAssociatedPress/APISamples/tree/master/APContentAPI/php

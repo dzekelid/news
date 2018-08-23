@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Geographic API
+  title: The New York Times Geographic API
   description: The Geographic API extends the Semantic API, using a linked data approach
     to enhance location concepts used in The New York Times' controlled vocabulary
     and data resources which combine them with the GeoNames database, an authoritative

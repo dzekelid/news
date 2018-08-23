@@ -6,20 +6,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openro
 x-kinRank: "7"
 x-alexaRank: "6266"
 tags: News
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/openrouteservice/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AP Breaking News API Category News
+- name: AP Breaking News API
   x-api-slug: ap-breaking-news-api
-  description: Returns the latest content for a specific category. Depending on the
-    specified parameters, returns  either the full story for each headline and/or
-    the headlines linked to web pages with the full stories.
+  description: ap-breaking-news-api-allows-your-organization-to-retrieve-a-list-of-available-breaking-news-categories-and-then-request-content-for-a-specific-category-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg
   humanURL: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
-  baseURL: https://developerapi.ap.org/v2//categories.svc/{categoryID}/
-  tags: Category,News
+  baseURL: https://developerapi.ap.org/v2/
+  tags: Bicycle, Routes, Directions, Technology, SaaS, Routes, Routes, General Data,
+    Relative Data, Service API, Locations, Maps
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/openrouteservice/categories-svccategoryid-get-postman.md
@@ -35,9 +34,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/openrouteservice/openapi.md
+- name: AP Content API
+  x-api-slug: ap-content-api
+  description: OpenStreetMap is the free wiki world map.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg
+  humanURL: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+  baseURL: https://api.ap.org/v2/
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/openrouteservice/openapi.md
+- name: AP Metadata Services
+  x-api-slug: ap-metadata-services
+  description: OpenStreetMap is the free wiki world map.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg
+  humanURL: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+  baseURL: https://cv.ap.org//
+  tags: News
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/openrouteservice/openapi.md
 x-common:
 - type: x-website
   url: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+- type: x-api-gallery
+  url: http://opendns.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://openrouteservice.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/openstreetmap-3
 - type: x-developer

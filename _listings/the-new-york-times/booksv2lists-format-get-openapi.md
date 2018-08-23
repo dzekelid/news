@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Best Seller List
+  title: The New York Times Best Seller List
   description: The Books API has services for getting information about The New York
     Times Best Sellers Lists and Book Reviews.
   termsOfService: https://developer.nytimes.com/tou

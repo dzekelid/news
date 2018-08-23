@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Top Stories
+  title: The New York Times Top Stories
   description: The Top Stories API returns a list of articles and associated images
     currently on the specified section.  Support JSON and JSONP.
   termsOfService: https://developer.nytimes.com/tou

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Most Viewed by Section & Time Period
+  title: The New York Times Most Viewed by Section & Time Period
   description: With the Most Popular API, you can get links and metadata for the blog
     posts and articles that are most frequently e-mailed, shared and viewed by NYTimes.co
   termsOfService: https://developer.nytimes.com/tou
