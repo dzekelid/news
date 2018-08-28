@@ -6,21 +6,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/everydeveloper/apis.md
 specificationVersion: "0.14"
-apis:
-- name: EveryDeveloper
-  x-api-slug: everydeveloper
-  description: ""
-  image: ""
-  humanURL: http://everydeveloper.com/
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/everydeveloper/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://everydeveloper.com/feed/

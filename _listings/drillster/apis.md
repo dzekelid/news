@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1562-drill
 x-kinRank: "7"
 x-alexaRank: "689091"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/drillster/apis.md
 specificationVersion: "0.14"
-apis:
-- name: DocumentCloud
-  x-api-slug: documentcloud
-  description: DocumentClouds API allows users to search, upload, edit, and organize
-    documents. No API key is required, so performing searches directly from JavaScript
-    is fair game. Please be considerate, and dont hammer our servers. Restrictions
-    on the use of the DocumentCloud API do not apply to participating organizations
-    working with documents uploaded by their own users.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1562-drillster.jpg
-  humanURL: http://www.drillster.com/info/api
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/drillster/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/drillster

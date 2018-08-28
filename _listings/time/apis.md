@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1031-time.
 x-kinRank: "8"
 x-alexaRank: "751"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/time/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TIME
-  x-api-slug: time
-  description: Breaking news and analysis from TIME.com. Politics, world news, photos,
-    video, tech reviews, health, science and entertainment news.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1031-time.jpg
-  humanURL: http://time.com
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/time/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.ap.org

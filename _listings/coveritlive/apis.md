@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1257-cover
 x-kinRank: "7"
 x-alexaRank: "360869"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/coveritlive/apis.md
 specificationVersion: "0.14"
-apis:
-- name: CoveritLive
-  x-api-slug: coveritlive
-  description: 'CoveritLive: Live Blogging 2.0 - CoveritLive.com is a web based Live
-    Blogging tool that allows you to broadcast live commentary to your readers. Instead
-    of waiting for tomorrow to read what you have to say, they hear from you live...right
-    now! If your ...'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1257-coveritlive.jpg
-  humanURL: http://www.coveritlive.com
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/coveritlive/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.coveritlive.com/

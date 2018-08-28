@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearso
 x-kinRank: "9"
 x-alexaRank: "2670"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/pearson-plc/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pearson plc
-  x-api-slug: pearson-plc
-  description: Offering educational products and services, assessment, and professional
-    development for all stages of learning. Learn more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearson-plc.jpg
-  humanURL: https://developer.pearson.com/
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/pearson-plc/openapi.md
+apis: []
 x-common:
 - type: x-application-gallery
   url: http://developer.pearson.com/product-showcase

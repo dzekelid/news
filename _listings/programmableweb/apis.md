@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/96-program
 x-kinRank: "9"
 x-alexaRank: "25838"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/programmableweb/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ProgrammableWeb
-  x-api-slug: programmableweb
-  description: The leading source of news & information about APIs, chronicling the
-    evolution of the global API economy & providing the web???s most relied-on API
-    Directory
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/96-programmableweb.jpg
-  humanURL: http://www.programmableweb.com/
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/programmableweb/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.programmableweb.com/

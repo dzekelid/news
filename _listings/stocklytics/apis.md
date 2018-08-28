@@ -12,59 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/stocklytics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Stocklytics Company Data API
-  x-api-slug: stocklytics-company-data-api
-  description: Build feature rich, fast applications and websites based around accurate
-    stock market data. Launch in hours rather than days using the Stocklytics API.
-    The Stocklytics API is a powerful, low-cost RESTful API allowing you to create
-    stock/ financial based apps and websites with data from our service. Such as historical
-    stock price data that can be used for creating stock charts and determining trends.
-    We also offer a company financial data API which allows your to get company information
-    for a particular Stock Code.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png
-  humanURL: http://stocklytics.com
-  baseURL: https://api.stocklytics.com//
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/stocklytics/openapi.md
-- name: Stocklytics Historical Stock Prices API
-  x-api-slug: stocklytics-historical-stock-prices-api
-  description: Build feature rich, fast applications and websites based around accurate
-    stock market data. Launch in hours rather than days using the Stocklytics API.
-    The Stocklytics API is a powerful, low-cost RESTful API allowing you to create
-    stock/ financial based apps and websites with data from our service. Such as historical
-    stock price data that can be used for creating stock charts and determining trends.
-    We also offer a company financial data API which allows your to get company information
-    for a particular Stock Code.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png
-  humanURL: http://stocklytics.com
-  baseURL: https://api.stocklytics.com//
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/stocklytics/openapi.md
-- name: Stocklytics Intraday Historical Stock Prices API
-  x-api-slug: stocklytics-intraday-historical-stock-prices-api
-  description: Build feature rich, fast applications and websites based around accurate
-    stock market data. Launch in hours rather than days using the Stocklytics API.
-    The Stocklytics API is a powerful, low-cost RESTful API allowing you to create
-    stock/ financial based apps and websites with data from our service. Such as historical
-    stock price data that can be used for creating stock charts and determining trends.
-    We also offer a company financial data API which allows your to get company information
-    for a particular Stock Code.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png
-  humanURL: http://stocklytics.com
-  baseURL: https://api.stocklytics.com//services/pressroom/
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/stocklytics/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://statuspage.api.gallery.streamdata.io

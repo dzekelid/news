@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28392-www-
 x-kinRank: "7"
 x-alexaRank: "455862"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/techsling/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TechSling
-  x-api-slug: techsling
-  description: TechSling Weblog is a leading online source of digital news, information
-    and resources.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28392-www-techsling-com.jpg
-  humanURL: https://www.techsling.com
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/techsling/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/techslinger

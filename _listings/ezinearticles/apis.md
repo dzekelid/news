@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/402-ezinea
 x-kinRank: "8"
 x-alexaRank: "12336"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/ezinearticles/apis.md
 specificationVersion: "0.14"
-apis:
-- name: EzineArticles
-  x-api-slug: ezinearticles
-  description: The EzineArticles Application Programming Interface (API) allows developers
-    to connect their applications to the EzineArticles database. The API gives programmers
-    the ability to retrieve article information from any author or category. They
-    can also create accounts and submit new articles.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/402-ezinearticles.jpg
-  humanURL: http://ezinearticles.com
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/ezinearticles/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.ezinearticles.com/

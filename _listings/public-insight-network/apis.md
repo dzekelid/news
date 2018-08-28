@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1823-publi
 x-kinRank: "8"
 x-alexaRank: "2210151"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/public-insight-network/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Public Insight Network
-  x-api-slug: public-insight-network
-  description: 'Read more about us from Current magazine: http://www.current.org/news/news1102publicinsight.html'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1823-publicinsight.jpg
-  humanURL: http://www.publicinsightnetwork.org/api-documentation/
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/public-insight-network/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/public-insight-network

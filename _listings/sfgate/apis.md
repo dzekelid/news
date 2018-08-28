@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/614-sfgate
 x-kinRank: "7"
 x-alexaRank: "1262"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/sfgate/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SFGATE
-  x-api-slug: sfgate
-  description: 'SFGATE: Local news & information, updated weather, traffic, entertainment,
-    celebrity news, sports scores and more.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/614-sfgate.jpg
-  humanURL: http://usatoday.com
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/sfgate/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://boundaries.latimes.com/

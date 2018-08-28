@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1357-regat
 x-kinRank: "7"
 x-alexaRank: "1007266"
 tags: News
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/regator/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Regator
-  x-api-slug: regator
-  description: Regator is a selective blog directory and search engine. Its the easiest
-    way to find, share, and read quality posts from hand-selected blogs in over 500
-    topics.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1357-regator-semantic.jpg
-  humanURL: http://platform.regator.com/api/
-  baseURL: https:///
-  tags: News
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/news/master/_listings/regator/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://platform.regator.com/api/
